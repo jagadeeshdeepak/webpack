@@ -17,6 +17,18 @@ var config = {
   output: {
     path: BUILD_DIR,
     filename: 'app.bundle.js'
+  },
+  // loaders are for specifying what we need for our project
+  // and what has to be compiled using webpack
+  module: {
+    loaders: [
+      {
+        test: /\.jsx?/,
+        // include: APP_DIR, // or just say what to exclude
+        exclude: /node_modules/, // do not want to compile node_modules folder
+        use: 'babel-loader'
+      }
+    ]
   }
 }
 
