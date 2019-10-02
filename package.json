@@ -1,0 +1,11 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jagadeeshdeepak/webpack.git",
+  "author": "Deepak Jagadeesh",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "2.6.1"
+  }
+}
